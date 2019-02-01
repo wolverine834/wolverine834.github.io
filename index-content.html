@@ -1,43 +1,77 @@
 
 <!-- saved from url=(0042)http://berichinlove.com/index-content.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><nav class="navbar navbar-default br-rsvp__nav  navbar-fixed-top" rel="js-br-rsvp__nav">
-                <div class="container">
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                      </button>
-                      <div class="navbar-brand br-nav-brand" href="#"><i class="icon-br icon-br-logo visible-xs"></i><span class="hidden-xs"><span class="br-rsvp__guestSignIn_logo-text-bold">Home</span></span></div>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse">
-                      <ul class="nav navbar-nav">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Feb 23, 2019 00:42:25").getTime();
 
-                        <li class="dropdown">
-                          <ul class="dropdown-menu">
-                            <li><a href="http://berichinlove.com/index-content.html#">Action</a></li>
-                            <li><a href="http://berichinlove.com/index-content.html#">Another action</a></li>
-                            <li><a href="http://berichinlove.com/index-content.html#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="http://berichinlove.com/index-content.html#">Separated link</a></li>
-                            <li><a href="http://berichinlove.com/index-content.html#">One more separated link</a></li>
-                          </ul>
-                        </li>
-                      </ul>
-                      <ul class="nav navbar-nav navbar-right">
-                        <!-- <li class="br-rsvp__nav_link link-about-us"><a id="nav-about-us" href="http://berichinlove.com/index-content.html#about-us" data-slide-to="about-us" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;about-us&#39;});">About us</a></li> -->
-                        <!-- <li class="br-rsvp__nav_link link-bridal-party"><a id="nav-bridal-party" href="http://berichinlove.com/index-content.html#bridal-party" data-slide-to="bridal-party" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;bridal-party&#39;});">Bridal Party</a></li> -->
-                        <li class="br-rsvp__nav_link link-venue"><a id="nav-venue" href="#" data-slide-to="venue" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;venue&#39;});">Venue</a></li>
-                        <!-- <li class="br-rsvp__nav_link link-registry"><a id="nav-registry" href="http://berichinlove.com/index-content.html#" data-slide-to="registry" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;registry&#39;});">Registry</a></li> -->
-                        <!-- <li class=" link-rsvp"><a id="nav-rsvp" href="http://berichinlove.com/index-content.html#" class="br-rsvp__rsvp-form_btn" data-toggle="modal" data-slide-to="rsvp" data-target="#rsvp-form-modal" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;rsvp-form&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;nav-btn&#39;});">RSVP</a></li> -->
-                       </ul>     
-                    </div><!--/.nav-collapse -->
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+
+              // Get todays date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance %(1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = "Only <span id='timer'>" + days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s </span>  "+ "      Left for our new Life";
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "Have Finished on 18 Feb 2019 with all your Blessings.";
+              }
+            }, 1000);
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-default br-rsvp__nav  navbar-fixed-top" rel="js-br-rsvp__nav">
+            <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <div class="navbar-brand br-nav-brand" href="#"><i class="icon-br icon-br-logo visible-xs"></i><span class="hidden-xs"><span class="br-rsvp__guestSignIn_logo-text-bold">Home</span></span></div>
                 </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+
+                    <li class="dropdown">
+                      <ul class="dropdown-menu">
+                        <li><a href="http://berichinlove.com/index-content.html#">Action</a></li>
+                        <li><a href="http://berichinlove.com/index-content.html#">Another action</a></li>
+                        <li><a href="http://berichinlove.com/index-content.html#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li class="dropdown-header">Nav header</li>
+                        <li><a href="http://berichinlove.com/index-content.html#">Separated link</a></li>
+                        <li><a href="http://berichinlove.com/index-content.html#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <!-- <li class="br-rsvp__nav_link link-about-us"><a id="nav-about-us" href="http://berichinlove.com/index-content.html#about-us" data-slide-to="about-us" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;about-us&#39;});">About us</a></li> -->
+                    <!-- <li class="br-rsvp__nav_link link-bridal-party"><a id="nav-bridal-party" href="http://berichinlove.com/index-content.html#bridal-party" data-slide-to="bridal-party" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;bridal-party&#39;});">Bridal Party</a></li> -->
+                    <li class="br-rsvp__nav_link link-venue"><a id="nav-venue" href="#" data-slide-to="venue" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;venue&#39;});">Venue</a></li>
+                    <!-- <li class="br-rsvp__nav_link link-registry"><a id="nav-registry" href="http://berichinlove.com/index-content.html#" data-slide-to="registry" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;nav&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;registry&#39;});">Registry</a></li> -->
+                    <!-- <li class=" link-rsvp"><a id="nav-rsvp" href="http://berichinlove.com/index-content.html#" class="br-rsvp__rsvp-form_btn" data-toggle="modal" data-slide-to="rsvp" data-target="#rsvp-form-modal" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;rsvp-form&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;nav-btn&#39;});">RSVP</a></li> -->
+                   </ul>     
+                </div><!--/.nav-collapse -->
+            </div>
         </nav>
 
-        
         <div class="br-rsvp__hero-info">
             <section id="intro" class="br-rsvp__intro full-height">
                 <div class="container">
@@ -47,6 +81,7 @@
                         </div>
                        <!--  <button id="hero-rsvp-btn" class="btn btn-lg btn-styleoff btn-brstyle-outline br-rsvp__rsvp-form_btn br-rsvp__intro_btn hidden-xs" title="RSVP" data-toggle="modal" data-target="#rsvp-form-modal" onclick="ga(&#39;send&#39;, {hitType: &#39;event&#39;,eventCategory: &#39;rsvp-form&#39;, eventAction: &#39;click&#39;, eventLabel: &#39;hero-btn&#39;});">RSVP Now</button> -->
                         <!-- <div class="br-rsvp__intro_content-title-subtitle visible-xs">April 9, 2016</div> -->
+                        <h1 id="demo"></h1>s
                     </div>
                 </div>
                 <div class="br-rsvp__intro_footer">
@@ -220,26 +255,26 @@
                         </div>
                     </div>
 
-    <div class="row align-items-center" style="margin-bottom: 10%;">
-        <div class="col-lg-6 order-lg-2">
-            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:auto;height:400px;">
-                <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
-                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pathrakaliyamman+Temple,+Chinnaputhur,+dharapuram&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                    </iframe>
-                </div>
+                    <div class="row align-items-center" style="margin-bottom: 10%;">
+                        <div class="col-lg-6 order-lg-2">
+                            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:auto;height:400px;">
+                                <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pathrakaliyamman+Temple,+Chinnaputhur,+dharapuram&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                    </iframe>
+                                </div>
 
-                <a class="embed-maphtml" href="https://www.embed-map.com" id="authorizemap-data">https://www.embed-map.com</a>
-                <style>#mymap-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
-            </div>
-        </div>
+                                <a class="embed-maphtml" href="https://www.embed-map.com" id="authorizemap-data">https://www.embed-map.com</a>
+                                <style>#mymap-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                            </div>
+                        </div>
 
-        <div class="col-lg-6 order-lg-1 gmaps">
-            <div class="p-5">
-                <h4 class="display-4" style="text-decoration: underline;">Google Maps</h4>
-                <p>Do Locate the Mandapam with Google Maps for easy Navigation from anywhere like taking a bite of cake.</p>
-            </div>
-        </div>
-    </div>
+                        <div class="col-lg-6 order-lg-1 gmaps">
+                            <div class="p-5">
+                                <h4 class="display-4" style="text-decoration: underline;">Google Maps</h4>
+                                <p>Do Locate the Mandapam with Google Maps for easy Navigation from anywhere like taking a bite of cake.</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="col-sm-6 col-lg-5 col-lg-offset-1">
@@ -257,10 +292,10 @@
                             <div class="br-rsvp__venue-bucket time-2 ">
                                 <i class="icon-br icon-br-champaign br-rsvp__venue-icon"></i>
                                 <h5 class="br-rsvp__venue-subtitle br-rsvp__venue-bucket_schedule">
-                                     <span class="time">6:30 PM</span> - <span class="description">Reception Hour</span>
+                                     <span class="time">8:00 PM To 10:00PM</span> - <span class="description">Reception Hour</span>
                                 </h5>
                                 <p class="br-rsvp__venue-description">
-                                    The Reception will immediately follow on the same day. Please enjoy a cocktail (or two!) and some savoury treats while we take professional group pictures with our attendees.                           
+                                    The Reception will follow on Sunday Feb 17 2019 at Nachumuthu Gounder Sarojini Ammal Mahal Kartumadam, Udumalpet.
                                 </p>
                             </div>
                         </div>
@@ -413,8 +448,7 @@
 
                         <span class="br-rsvp__form response-yes" rel="js-br-rsvp__form_info-response-yes">
                             <!-- FORM//Guest Profile -->
-                            <div class="row br-rsvp__form br-rsvp__form_guest-profile" rel="js-br-rsvp__form_info-profile">
-                                   
+                            <div class="row br-rsvp__form br-rsvp__form_guest-profile" rel="js-br-rsvp__form_info-profile">                                   
                                     <div class="col-sm-12">
                                         <div class="well br-rsvp__copy">
                                             <h5>Your detail </h5>
@@ -461,8 +495,7 @@
                                                 </div>
                                             </div>          
                                         </div>
-                                    </div>
-                                 
+                                    </div>                                 
                             </div>
 
                             <!-- FORM//Plus One Profile -->
@@ -470,8 +503,8 @@
                                     <div class="col-sm-12 ">
                                         <div class="well br-rsvp__copy">
                                             <h5>Your guests detail </h5>
-<!--                                             <p>Please write N/A if your guest is not coming</p>
- -->                                        </div>
+                                        <!--<p>Please write N/A if your guest is not coming</p>-->
+                                        </div>
   
                                         <div id="plus-one-two-plus" class="panel-group br-rsvp__form_guest-content-container plus-one" rel="js-br-rsvp__form_guest-content-container_plus-one-two-plus"></div>
                                         <div class="br-rsvp__form_guest-content-container plus-one" rel="js-br-rsvp__form_guest-content-container_plus-one"> 
@@ -525,8 +558,7 @@
                         <button class="btn btn-lg btn-styleoff btn-brstyle-outline form-btn btn-last form-btn-submit message-btn disabled" rel="js-btn-rsvp-form-submit">Submit<span class="pulse-loader" rel="js-pulse-loader"></span></button>
 
                         <button class="btn btn-lg btn-styleoff btn-brstyle-outline form-btn btn-last form-btn-edit" title="Submit" rel="js-btn-rsvp-form-edit">Edit<span class="pulse-loader" rel="js-pulse-loader"></span></button>
-                    </div>
-              
+                    </div>              
                 </div>
             </div>
           </div>
@@ -563,11 +595,4 @@
             </div>
           </div>
         </div>
-
-        
-
-        
-            
-            
-      
 </body></html>
