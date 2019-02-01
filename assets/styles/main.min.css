@@ -1470,7 +1470,7 @@
 .br-rsvp__social-media__img{width:400px}
 .br-rsvp__engagement-slider{margin-top:120px}section{padding:60px 0}#greeting{height:100vh}#greeting p{color:#333;font-size:130%;font-weight:500;}#about-us,#greeting{padding:0;background:0 0}#about-us{background:-moz-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);display:block}#bridal-party .slick-slider{margin-top:110px}#registry{overflow:visible}
 .navbar>.container .br-nav-brand{color:#fff;padding:15px}
-.br-rsvp__intro_content{width:100%;max-width:530px;margin:auto}
+.br-rsvp__intro_content{width:100%;max-width:595px;margin:auto}
 .br-rsvp__bride-and-groom{position:absolute;bottom:-100px;width:50%;margin-left:-30px}
 .br-rsvp__bride-and-groom_groom{right:-23%;float:left}
 .br-rsvp__bride-and-groom_bride{left:-23%}
@@ -1492,11 +1492,5 @@
 .br-rsvp__form_guest-footer{width:970px}}@media only screen and (min-device-width:768px) and (max-device-width:1024px){.br-rsvp__bridalParty__filter{display:none}}
 
 #demo {
-    background: #e52d27;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: #fd746c;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(left, #ff9068, #fd746c);
-    background: -o-linear-gradient(left, #ff9068, #fd746c);
-    background: linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding: 10px;
+   color: white;
 }
