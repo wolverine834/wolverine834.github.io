@@ -1490,3 +1490,13 @@
 .br-rsvp__form .br-rsvp__copy{max-width:100%}
 .br-rsvp__form .form-control-feedback{top:16px}}@media only screen and (min-width:992px){.br-rsvp__bridalParty-person_img img{width:100%}
 .br-rsvp__form_guest-footer{width:970px}}@media only screen and (min-device-width:768px) and (max-device-width:1024px){.br-rsvp__bridalParty__filter{display:none}}
+
+#demo {
+    background: #e52d27;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fd746c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(left, #ff9068, #fd746c);
+    background: -o-linear-gradient(left, #ff9068, #fd746c);
+    background: linear-gradient(to right, #ff9068, #fd746c);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px;
+}
