@@ -1456,7 +1456,7 @@
 .atc-style-blue .atcb-item.hover,.atc-style-blue .atcb-item:hover{background:#4281f4}
 .text-pink{color:#faafcc}@font-face{font-family:octavia;src:url(../fonts/Octavia-Script/Octavia-Script.eot);src:url(../fonts/Octavia-Script/Octavia-Script.eot?#iefix) format('embedded-opentype'),url(../fonts/Octavia-Script/Octavia-Script.woff2) format('woff2'),url(../fonts/Octavia-Script/Octavia-Script.woff) format('woff'),url(../fonts/Octavia-Script/Octavia-Script.ttf) format('truetype'),url(../fonts/Octavia-Script/Octavia-Script.svg#svgFontName) format('svg')}@media only screen and (min-width:320px){textarea.form-control.plusOne{padding-top:30px}}@media only screen and (max-width:480px){.br-rsvp__intro{background:url(../images/rsvp_background.jpg) 50% 50% no-repeat;background-size:cover;-moz-background-size:cover;-o-background-size:cover;-webkit-background-size:cover}
 .br-rsvp__intro_background .background-img{background:0 0}}@media only screen and (min-width:768px){h1{font-size:32px}h5{font-size:25px}p{font-size:22px;line-height:1.4;font-weight:500;}
-.br-rsvp__copy h1{font-size:50px}
+.br-rsvp__copy h1{font-size:47px}
 .br-rsvp__venue-bucket.time-3,.br-rsvp__venue-bucket.time-4{padding-bottom:0}
 .br-rsvp__nav .navbar-collapse,.br-rsvp__nav .navbar-form{background:0 0}
 .br-rsvp__nav .navbar-nav>li>a{padding-top:17px;padding-bottom:17px;color:#fff;line-height:1.2;cursor:pointer}
