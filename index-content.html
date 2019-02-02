@@ -24,7 +24,7 @@
                 
               // Output the result in an element with id="demo"
               document.getElementById("demo").innerHTML = "Only <span id='timer'>" + days + "d " + hours + "h "
-              + minutes + "m " + seconds + "s </span>  "+ "      Left for our new Life";
+              + minutes + "m " + seconds + "s </span>";
                 
               // If the count down is over, write some text 
               if (distance < 0) {
@@ -255,8 +255,8 @@
                         </div>
                     </div>
 
-                    <div class="row align-items-center" style="margin-bottom: 10%;">
-                        <div class="col-lg-6 order-lg-2">
+                    <div class="row" style="margin-bottom: 10%;">
+                        <div class="col-sm-8 col-lg-6">
                             <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:auto;height:400px;">
                                 <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
                                     <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pathrakaliyamman+Temple,+Chinnaputhur,+dharapuram&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
@@ -268,17 +268,8 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 order-lg-1 gmaps">
-                            <div class="p-5">
-                                <h4 class="display-4" style="text-decoration: underline;">Google Maps</h4>
-                                <p>Do Locate the Mandapam with Google Maps for easy Navigation from anywhere like taking a bite of cake.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-sm-6 col-lg-5 col-lg-offset-1">
-                            <div class="br-rsvp__venue-bucket time-1 ">
+                        <div class="col-sm-12 col-lg-6">
+                            <div class="br-rsvp__venue-bucket time-2 ">
                                 <i class="icon-br icon-br-ring br-rsvp__venue-icon"></i>
                                 <h5 class="br-rsvp__venue-subtitle">
                                      <span class="time">4:00 AM to 6:00 AM</span> - <span class="description">Ceremony</span>
@@ -287,16 +278,33 @@
                                     The ceremony will be held indoors at the Pathirakali Amman Temple. Please arrive 15 minutes earlier.
                                 </p>
                             </div>
+
+                            <!-- <h4 class="display-4" style="text-decoration: underline;">Google Maps</h4>
+                            <p>Do Locate the Mandapam with Google Maps for easy Navigation from anywhere like taking a bite of cake.</p> -->
                         </div>
-                        <div class="col-sm-6 col-lg-5">
-                            <div class="br-rsvp__venue-bucket time-2 ">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-8 col-lg-6">
+                            <div class="br-rsvp__venue-bucket time-1 ">
                                 <i class="icon-br icon-br-champaign br-rsvp__venue-icon"></i>
                                 <h5 class="br-rsvp__venue-subtitle br-rsvp__venue-bucket_schedule">
-                                     <span class="time">8:00 PM To 10:00 PM</span> - <span class="description">Reception Hour</span>
+                                     <span class="time">6:00 PM To 9:00 PM</span> - <span class="description">Reception Hour</span>
                                 </h5>
                                 <p class="br-rsvp__venue-description">
                                     The Reception will follow on Sunday Feb 17 2019 at Nachumuthu Gounder Sarojini Ammal Mahal Kartumadam, Udumalpet.
                                 </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-6">
+                            <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:auto;height:400px;">
+                                <div id="mymap-display" style="height:100%; width:100%;max-width:100%;">
+                                    <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Pathrakaliyamman+Temple,+Chinnaputhur,+dharapuram&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                    </iframe>
+                                </div>
+
+                                <a class="embed-maphtml" href="https://www.embed-map.com" id="authorizemap-data">https://www.embed-map.com</a>
+                                <style>#mymap-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
                             </div>
                         </div>
                     </div>
