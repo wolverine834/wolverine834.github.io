@@ -1263,7 +1263,8 @@
 .br-rsvp__copy h1{margin:0 0 15px;font-family:'Alex Brush',myriad-pro,sans-serif,Helvetica Neue,Helvetica;font-size:40px;text-transform:capitalize}
 .margin-bottom-none{margin-bottom:0}
 .margin-top-none{margin-top:0}section{padding:20px 0}section.full-height{padding:0}section.bg-white{background-color:#fff}
-.br-rsvp__guestSignIn-successful{overflow-y:scroll;overflow-x:hidden;width:100%}#test{height:100%}
+/*.br-rsvp__guestSignIn-successful{overflow-y:scroll;overflow-x:hidden;width:100%}#test{height:100%}*/
+.br-rsvp__guestSignIn-successful{width:100%}#test{height:100%}
 .br-rsvp__guestSignIn{background-image:url(../images/rsvp_background-blur.jpg);background-repeat:no-repeat;background-position:50% 50%!important;background-size:cover;-moz-background-size:cover;-o-background-size:cover;-webkit-background-size:cover;position:fixed;width:100%;height:100%;z-index:20}
 .br-rsvp__guestSignIn-footer_secret-code{display:block;font-weight:700;margin-bottom:10px}
 .br-rsvp__guestSignIn-overlay{position:absolute;top:0;width:100%;height:100%;background:rgba(0,0,0,.3)}
@@ -1317,7 +1318,7 @@
 .br-rsvp__hero-info{height:100vh}#greeting{background:#fff}#greeting .container.v-align{top:42%}#greeting .br-rsvp__copy{margin-bottom:0}#greeting .br-rsvp__rsvp-form_btn{margin:35px auto 0}
 .br-rsvp__greeting-name{text-transform:capitalize;font-weight:700}
 .br-rsvp__intro_content,.br-rsvp__intro_content-title{text-align:center}
-.br-rsvp__intro_content-title_img{opacity:0;width:100%;max-width:90%;max-height:400px}
+.br-rsvp__intro_content-title_img{opacity:1;width:100%;max-width:90%;max-height:400px}
 .br-rsvp__intro_content-title-subtitle{font-weight:700;margin-top:30px;text-align:center;font-size:18px;color:#fff;opacity:0}#about-us{background:#fff;display:inline-block;padding-bottom:0}
 .br-rsvp__bride-and-groom{position:relative;width:50%;margin-top:40px;float:left}
 .br-rsvp__bride-and-groom img{float:right;max-width:90%}
@@ -1470,7 +1471,7 @@
 .br-rsvp__social-media__img{width:400px}
 .br-rsvp__engagement-slider{margin-top:120px}section{padding:60px 0}#greeting{height:100vh}#greeting p{color:#333;font-size:130%;font-weight:500;}#about-us,#greeting{padding:0;background:0 0}#about-us{background:-moz-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background:-webkit-linear-gradient(top,rgba(255,255,255,0) 0,#fff 100%);background:linear-gradient(to bottom,rgba(255,255,255,0) 0,#fff 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);display:block}#bridal-party .slick-slider{margin-top:110px}#registry{overflow:visible}
 .navbar>.container .br-nav-brand{color:#fff;padding:15px}
-.br-rsvp__intro_content{width:100%;max-width:595px;margin:auto}
+.br-rsvp__intro_content{width:100%;max-width:530px;margin:auto}
 .br-rsvp__bride-and-groom{position:absolute;bottom:-100px;width:50%;margin-left:-30px}
 .br-rsvp__bride-and-groom_groom{right:-23%;float:left}
 .br-rsvp__bride-and-groom_bride{left:-23%}
@@ -1493,6 +1494,5 @@
 
 #demo {
    color: white;
-   font-family:'Alex Brush',myriad-pro,sans-serif,Helvetica Neue,Helvetica;
-   font-size: 35pt;
+   font:500 60px/0.8 'Edwardian Script ITC', Helvetica, sans-serif;
 }
