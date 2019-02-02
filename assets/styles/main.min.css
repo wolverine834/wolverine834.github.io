@@ -1493,5 +1493,6 @@
 
 #demo {
    color: white;
-   font:500 60px/0.8 'Edwardian Script ITC', Helvetica, sans-serif;
+   font-family:'Alex Brush',myriad-pro,sans-serif,Helvetica Neue,Helvetica;
+   font-size: 35pt;
 }
